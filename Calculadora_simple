@@ -1,0 +1,32 @@
+#include <iostream>
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+
+    char O;
+    double A,B;
+
+    cin>>A>>O>>B;
+
+    if(O=='+')
+    {
+        cout<<fixed << setprecision(3) <<A+B<<endl;
+    }
+    if(O=='-')
+    {
+        cout<<fixed << setprecision(3) <<A-B<<endl;
+    }
+    if(O=='x')
+    {
+        cout<<fixed << setprecision(3) <<A*B<<endl;
+    }
+    if(O=='/')
+    {
+        cout<<fixed << setprecision(3) <<A/B<<endl;
+    }
+
+    return 0;
+}
